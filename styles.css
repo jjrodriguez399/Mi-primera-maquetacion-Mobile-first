@@ -434,9 +434,7 @@ main{
     margin-top: 0rem;
 
 }
-#plans{
 
-}
 .main-plans-container{
     width: 100%;
     min-width: 32rem;
@@ -620,6 +618,33 @@ main{
 
 }
 
+footer{
+    display: flex;
+    width: 100%;
+    height: 15rem;
+    background-color: var(--bitcoin-orange);
+
+}
+footer section{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+footer .left ul{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+.left li{
+    margin: 1rem 0;
+    list-style: none;
+}
+.left a{
+    text-decoration: none;
+    color: var(--just-white);
+
+}
 
 /* .plans-container-card .recomended{
     position: absolute;
